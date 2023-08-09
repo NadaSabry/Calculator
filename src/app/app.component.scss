@@ -1,0 +1,50 @@
+.container-fluid{
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: nowrap;
+}
+.calc-theme{
+    width:538px;
+    @media (max-width:376px) {
+        width: 327px;
+    }
+    height: 120px;
+    //height:100px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    padding:25px 25px;
+}
+.logo{
+    font-family: 'League Spartan', sans-serif;
+    font-weight:700;
+    align-self: end;
+}
+.themeMode{
+    justify-self: end;
+    font-size: 10px;
+    //align-self: start;
+}
+.impor{
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+.row{
+    flex-wrap: nowrap;
+}
+.toggle{
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25rem;;
+}
+.circle{
+    width:13px;
+    height: 13px;
+}
+.circle:hover{
+    cursor: pointer;
+}
