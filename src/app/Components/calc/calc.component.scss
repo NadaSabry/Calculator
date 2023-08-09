@@ -2,7 +2,7 @@
     width: 540px;
     height: 128px;
 
-    @media (max-width:376px) {
+    @media (max-width:600px) {
         width: 327px;
         height: 87px;
         padding: 20px;
@@ -22,7 +22,7 @@
 .buttons {
     width: 540px;
 
-    @media (max-width:376px) {
+    @media (max-width:600px) {
         width: 327px;
     }
 
@@ -35,7 +35,7 @@
 .btnnum {
     width: 10px;
     height: 60px;
-    @media (max-width:376px) {
+    @media (max-width:600px) {
         width: 327px;
         width: 60px;
         margin: 5.5px;
@@ -58,7 +58,7 @@
 
 #DelReset,
 #equal {
-    @media (max-width:376px) {
+    @media (max-width:600px) {
         font-size: 25px;
         padding-top: 17px;
     }
